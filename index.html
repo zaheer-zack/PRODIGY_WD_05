@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Forecast</h1>
+        </header>
+        <main>
+            <div class="search-box">
+                <input type="text" id="locationInput" placeholder="Enter a location">
+                <button id="searchBtn">Search</button>
+            </div>
+            <div class="weather-info hidden">
+                <h2 id="locationName">Location</h2>
+                <p id="temperature">Temperature: --</p>
+                <p id="condition">Condition: --</p>
+                <p id="humidity">Humidity: --</p>
+                <p id="wind">Wind Speed: --</p>
+            </div>
+        </main>
+        <footer>
+            <p>Powered by Weather API</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
